@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-image-with-ai-alt",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.2",
   "description": "A Sanity.io plugin that adds an image field with AI-generated alternative text to enhance accessibility and SEO.",
   "keywords": [
     "sanity",
