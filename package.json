@@ -88,6 +88,9 @@
     "react": "^18",
     "sanity": "^3"
   },
+  "overrides": {
+    "conventional-changelog-conventionalcommits": ">= 8.0.0"
+  },
   "engines": {
     "node": ">=18"
   },
