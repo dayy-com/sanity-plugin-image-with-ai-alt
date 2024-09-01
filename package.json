@@ -62,11 +62,13 @@
     "ai": "^3.3.21"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^19.4.1",
     "@sanity/pkg-utils": "^6.10.11",
     "@sanity/plugin-kit": "^4.0.18",
     "@types/react": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "commitlint": "^19.4.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-sanity": "^7.1.2",
