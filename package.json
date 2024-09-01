@@ -1,0 +1,94 @@
+{
+  "name": "sanity-plugin-image-with-ai-alt",
+  "version": "0.0.1",
+  "description": "A Sanity.io plugin that adds an image field with AI-generated alternative text to enhance accessibility and SEO.",
+  "keywords": [
+    "sanity",
+    "sanity-plugin",
+    "image",
+    "alt",
+    "ai",
+    "alternative-text",
+    "image-alt",
+    "image-alt-text",
+    "image-field",
+    "ai-generated-alt",
+    "ai-alt-text",
+    "sanity-image-plugin",
+    "sanity-ai-plugin"
+  ],
+  "homepage": "https://github.com/dayy-com/sanity-plugin-image-with-ai-alt#readme",
+  "bugs": {
+    "url": "https://github.com/dayy-com/sanity-plugin-image-with-ai-alt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dayy-com/sanity-plugin-image-with-ai-alt.git"
+  },
+  "license": "MIT",
+  "author": "dayy <hi@dayy.com>",
+  "sideEffects": false,
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "sanity.json",
+    "src",
+    "v2-incompatible.js"
+  ],
+  "scripts": {
+    "build": "plugin-kit verify-package --silent && pkg-utils build --strict --check --clean",
+    "format": "prettier --write --cache --ignore-unknown .",
+    "link-watch": "plugin-kit link-watch",
+    "lint": "eslint .",
+    "verify": "plugin-kit verify-package",
+    "prepublishOnly": "npm run build",
+    "watch": "pkg-utils watch --strict"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^0.0.48",
+    "@ai-sdk/google": "^0.0.46",
+    "@ai-sdk/openai": "^0.0.54",
+    "@sanity/incompatible-plugin": "^1.0.4",
+    "ai": "^3.3.21"
+  },
+  "devDependencies": {
+    "@sanity/pkg-utils": "^6.10.11",
+    "@sanity/plugin-kit": "^4.0.18",
+    "@types/react": "^18.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-sanity": "^7.1.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.3.3",
+    "prettier-plugin-packagejson": "^2.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.56.0",
+    "styled-components": "^6.1.13",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "sanity": "^3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "browserslist": [
+    "extends @sanity/browserslist-config"
+  ]
+}
