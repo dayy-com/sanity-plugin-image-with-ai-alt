@@ -72,7 +72,7 @@ Since the `imageWithAiAlt` type extends the [Sanity `image` type](https://www.sa
 If you choose `anthropic` as the provider, you can only use `claude-3-5-sonnet-20240620` as the model (which is the default and can be omitted).
 
 <details>
-<summary><strong>Supported languages</summary>
+<summary><strong>Supported languages</strong></summary>
 
 Following languages are supported:
 - `chinese`
@@ -147,7 +147,7 @@ If you choose OpenAI as the provider, you can use the following models:
 - `gpt-4-turbo`
 
 <details>
-<summary><strong>Supported languages</summary>
+<summary><strong>Supported languages</strong></summary>
 
 - `albanian`
 - `amharic`
