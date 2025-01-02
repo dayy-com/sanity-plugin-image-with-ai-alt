@@ -90,6 +90,7 @@
   },
   "overrides": {
     "conventional-changelog-conventionalcommits": ">= 8.0.0",
+    "nanoid": ">= 3.3.8",
     "rollup": ">= 4.22.4"
   },
   "engines": {
