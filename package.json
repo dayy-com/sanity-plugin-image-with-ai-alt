@@ -90,8 +90,9 @@
   },
   "overrides": {
     "conventional-changelog-conventionalcommits": ">= 8.0.0",
+    "esbuild": ">= 0.25.0",
     "nanoid": ">= 3.3.8",
-    "rollup": ">= 4.22.4"
+    "prismjs": ">= 1.30.0"
   },
   "engines": {
     "node": ">=18"
